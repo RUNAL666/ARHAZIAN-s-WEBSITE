@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: black;
+}
+#header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#hlists {
+    display: flex;
+    justify-content: center;
+}
+#block {
+    width: 1000px;
+    height: 500px;
+    border-top-color: red;
+    border-top-style: solid;
+    background-color: black;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.lists {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: 0;
+}
+.list {
+    margin: 0 10px;
+    float: left;
+}
+.list a {
+    display: block;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Electrolize";
+}
+.list a:hover {
+    text-decoration: underline;
+}
+.categorymain {
+    overflow: hidden;
+    list-style: none;
+}
+.categorymain li {
+    float: left;
+    text-align: center;
+    margin: 0.4em;
+    color: #fff;
+    font-family: "Electrolize";
+    font-size: 20px;
+}
+.categorymain li a {
+    color: #ff0000;
+    text-decoration: none;
+}
+.categorymain li a:hover {
+    text-decoration: underline;
+}
+.categorymain img {
+    display: block;
+    border: 1px solid #ff0000;
+}
+h1 {
+    color: red;
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Electrolize";
+}
+p {
+    color: white;
+    font-size: 20px;
+    width: 800px;
+    margin: auto;
+    font-family: "Electrolize";
+}

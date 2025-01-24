@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: url("Background.png");
+}
+#mainblock {
+    width: 900px;
+    height: 500px;
+    border: 2px, solid, #fff;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#alllists {
+    border-top: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+    display: flex;
+    justify-content: center;
+}
+#block {
+    width: 900px;
+    height: 500px;
+    border-top: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+}
+.listsblock {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: 0;
+    border-top: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+}
+.lists {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: 0;
+}
+.list {
+    margin: 0 10px;
+    float: left;
+}
+.list a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Anton', serif;
+}
+.list a:hover {
+    text-decoration: underline;
+}
+.stuffs {
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+}
+.list1 a {
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Anton', serif;
+}
+.list1 a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.list2 a {
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Anton', serif;
+}
+.list2 a:hover {
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+}
+.list3 a {
+    font-size: 27px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Anton', serif;
+}
+.list3 a:hover {
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+h1 {
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Anton', serif;
+}
+h2 {
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Anton', serif;
+}
+p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Anton', serif;
+    width: 800px;
+    margin: auto;
+}

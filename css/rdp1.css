@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+#header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#hlists {
+    display: flex;
+    justify-content: center;
+}
+#block {
+    width: 900px;
+    height: 500px;
+    border-top-color: red;
+    border-top-style: solid;
+    background-color: black;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#cover {
+    width: 800px;
+    height: 270px;
+    border-top-color: red;
+    border-top-style: solid;
+    background-color: black;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#cover2 {
+    width: 800px;
+    height: 200px;
+    border-top-color: red;
+    border-top-style: solid;
+    background-color: black;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+#cover2 a{
+    color: red;
+    font-size: 20px;
+    font-family: "Electrolize";
+    text-decoration: none;
+}
+#cover a:hover {
+    text-decoration: underline;
+}
+.lists {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: 0;
+}
+.list {
+    margin: 0 10px;
+    float: left;
+}
+.list a {
+    display: block;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Electrolize";
+}
+.list a:hover {
+    text-decoration: underline;
+}
+.images {
+    border: 2px, solid, red;
+}
+.picone {
+    padding: 10px;
+}
+.tracks {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: block;
+    text-align: left;
+    float: left;
+}
+.info {
+    text-align: right;
+
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Electrolize";
+}
+h2 {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-family: "Electrolize";
+}
+p {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    font-family: "Electrolize";
+}

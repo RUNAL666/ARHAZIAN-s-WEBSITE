@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-image: url("Background.png");
+}
+#mainblock {
+    width: 900px;
+    height: 500px;
+    border: 2px, solid, #fff;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#alllists {
+    border-top: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+    display: flex;
+    justify-content: center;
+}
+#block {
+    width: 900px;
+    height: 500px;
+    border-top: 2px;
+    border-top-color: #fff;
+    border-top-style: solid;
+}
+.lists {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: 0;
+}
+.list {
+    margin: 0 10px;
+    float: left;
+}
+.list a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Anton', serif;
+}
+.list a:hover {
+    text-decoration: underline;
+}
+.links {
+    color: #808080;
+}
+.links:hover {
+    text-decoration: underline;
+}
+.categ1 {
+    text-align: left;
+    margin-left: 30px;
+}
+.main {
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+.main:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: #fff;
+    font-size: 40px;
+    padding: 20px;
+    font-family: 'Anton', serif;
+}
+h2 {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Anton', serif;
+}
+h3 {
+    color: #fff;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Tiny5';
+}
+p {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 50px;
+    font-family: 'Anton', serif;
+    width: 800px;
+    margin: auto;
+}

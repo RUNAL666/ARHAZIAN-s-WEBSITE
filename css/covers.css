@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: black;
+}
+#header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#hlists {
+    display: flex;
+    justify-content: center;
+}
+#block {
+    width: 700px;
+    height: 500px;
+    border-top-color: red;
+    border-top-style: solid;
+    background-color: black;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.lists {
+    display: flex;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    text-align: 0;
+}
+.list {
+    margin: 0 10px;
+    float: left;
+}
+.list a {
+    display: block;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Electrolize";
+}
+.list a:hover {
+    text-decoration: underline;
+}
+.linkone {
+    margin: 0 10px;
+}
+.linkone a {
+    display: block;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Electrolize";
+}
+.linkone a:hover {
+    text-decoration: underline;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    font-family: "Electrolize";
+}
+h2 {
+    color: red;
+    font-size: 30px;
+    padding: 15px;
+    font-family: "Electrolize";
+}
+p {
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    font-family: "Electrolize";
+}
